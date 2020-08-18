@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:layout_gravity="center"
+    android:background="@color/Indigo"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Value"
+        android:background="@color/White"
+        android:inputType="numberDecimal"
+        />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/meterToCentimeter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/White"
+            android:background="@color/Aqua"
+            android:text="Meter To Centimeter"
+            android:layout_marginBottom="20dp"
+            />
+        <RadioButton
+            android:id="@+id/CentimeterToMeter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/White"
+            android:background="@color/Aqua"
+            android:text="Centimeter To Meter"
+
+            />
+
+
+        <RadioButton
+            android:id="@+id/KilometerToMeter"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/White"
+            android:text="Kilometer To Meter"
+            />
+        <RadioButton
+            android:id="@+id/MeterToKilometer"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/White"
+            android:text="Meter To Kilometer"
+            />
+        <RadioButton
+            android:id="@+id/InchToFoot"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/White"
+            android:text="Inch To Feet"
+            />
+        <RadioButton
+            android:id="@+id/FootToInch"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/White"
+            android:text="Feet To Inch"
+            />
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:id="@+id/Button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Convert"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/DarkRed"
+        />
+        <Button
+            android:id="@+id/CancelButton"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@color/HotPink"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
